@@ -1,11 +1,11 @@
 // src/POPOSSpace.js
 import React from 'react';
 import './POPOSSpace.css';
-
+import POPOSList from '../POPOSList/POPOSList';
 // eslint-disable-next-line
 import { Link } from 'react-router-dom';
 // eslint-disable-next-line
-import POPOSList from './POPOSList';
+
 
 function POPOSSpace(props) {
   const { name, image, address, hours, id } = props

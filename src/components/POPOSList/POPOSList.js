@@ -1,8 +1,8 @@
 // src/POPOSList.js
-import POPOSSpace from "./POPOSSPace"
+import POPOSSpace from "../POPOSSpace/POPOSSPace"
 import React from 'react';
 import './POPOSList.css';
-import data from './sfpopos-data.json'
+import data from '../../sfpopos-data.json'
 
 
 function POPOSList(props) {
