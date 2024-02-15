@@ -1,0 +1,17 @@
+/* Add some styles: add some styles to the stylesheet
+Add some class names: Add a class name to elements in the POPOSSpace component that you can target with your styles */
+/* Add some styles */
+.POPHeader {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+.POPOSSpace {
+    width: 100%;
+    text-align: center;
+  }
+  
+.POPOSSpace > img {
+    width: 100%;
+    height: auto;
+  }

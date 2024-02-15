@@ -1,0 +1,18 @@
+/* add styles to this file and style elemnts in Footer */
+
+/* Add some styles */
+
+
+/* Display the year in the footer by getting the year via JS using the Date Object
+*/
+
+.Footer {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  background-color: #f2f2f2;
+  padding: 16px;
+  text-align: center;
+  
+}
+
