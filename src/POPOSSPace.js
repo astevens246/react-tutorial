@@ -1,7 +1,7 @@
 // src/POPOSSpace.js
 import React from 'react';
 import './POPOSSpace.css';
-import POPOSList from '../POPOSList/POPOSList';
+import POPOSList from './POPOSList';
 // eslint-disable-next-line
 import { Link } from 'react-router-dom';
 // eslint-disable-next-line
