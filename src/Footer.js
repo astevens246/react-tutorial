@@ -8,7 +8,7 @@ function Footer() {
 
     return (
         <div className="Footer">
-        <h1>Footer Example</h1>
+        <h1>Allen Stevens </h1>
         <p>{year}</p>
         <p>{currentTime}</p>
         </div>
