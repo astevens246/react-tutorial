@@ -9,23 +9,22 @@
 
 /* Add this at the end of your App.css file */
 
-html {
-  /* Set a default background color */
-  background-color: #ffffff; /* white */
+/* html {
+
+  background-color: #ffffff; 
 }
 
-/* For screens smaller than 600px */
+
 @media (max-width: 480px) {
   html {
-    /* Set background color for small screens */
-    background-color: #f3ef03; /* light gray */
+ 
+    background-color: #f3ef03; 
   }
 }
 
-/* For screens larger than 600px */
-@media (min-width: 481px) {
+
+@media (max-width: 600px) {
   html {
-    /* Set background color for large screens */
-    background-color: #ffffff; /* white */
+    background-color: #ffffff; 
   }
-}
+} */

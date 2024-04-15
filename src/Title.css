@@ -11,9 +11,9 @@
     background-color: rgb(192, 45, 26);
     color: #fff;
   }
+  .Title .nav-link,
   .Title .nav-link-active {
     color: #fff;
-    border-bottom: 2px solid;
   }
   .Title-Subtitle {
     color: rgba(255, 255, 255, 0.75);
@@ -26,4 +26,6 @@
 
   .About {
     margin-top: 2em;
+    
+    
   }

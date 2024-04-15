@@ -1,24 +1,12 @@
-/* src/POPOSList.css */
 .POPOSList {
-    width: calc(100% - 80px);
-    margin: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 40px;
-  }
-
-  /* For screens smaller than 480px */
-@media (max-width: 480px) {
-  .POPOSList {
-    /* Set font color for small screens */
-    color: #00720d; /* dark gray */
-  }
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
 }
 
-/* For screens larger than 480px */
-@media (min-width: 480px) {
+/* For screens smaller than 600px, use two columns */
+@media screen and (max-width: 599px) {
   .POPOSList {
-    /* Set font color for large screens */
-    color: #f906d5; /* black */
+    grid-template-columns: 1fr 1fr;
   }
 }

@@ -1,23 +1,19 @@
 // src/POPOSSpace.js
 import React from 'react';
 import './POPOSSpace.css';
-import POPOSList from './POPOSList';
-// eslint-disable-next-line
 import { Link } from 'react-router-dom';
-// eslint-disable-next-line
-
 
 function POPOSSpace(props) {
   const { name, image, address, hours, id } = props
 
   return (
     <div className="POPOSSpace">
-    <Link to={`/details/${id}`}>
-      <img src={`${process.env.PUBLIC_URL}images/${image}`} width="300" height="300" alt="Hello" />
-    </Link>
+      <Link to={`/details/${id}`}>
+        <img src={`/images/${image}`} width="300" height="300" alt={`${name} at ${address}`}  />
+      </Link>
       <h1>  
         <Link to={`/details/${id}`}>
-        {name}
+          {name}
         </Link>
       </h1>
       
@@ -26,6 +22,5 @@ function POPOSSpace(props) {
     </div>
   )
 }
-
 
 export default POPOSSpace
