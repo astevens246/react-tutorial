@@ -4,9 +4,14 @@
   grid-gap: 40px;
 }
 
-/* For screens smaller than 600px, use two columns */
-@media screen and (max-width: 599px) {
+@media screen and (max-width: 950px) {
   .POPOSList {
     grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .POPOSList {
+    grid-template-columns: 1fr;
   }
 }
