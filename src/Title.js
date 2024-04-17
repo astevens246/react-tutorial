@@ -23,7 +23,7 @@ function Title() {
     <div className="Title-Container">
       <div>
         <input type="search" placeholder="Search..." />
-        <button>Search</button>
+        <button aria-label="Search">Search</button>
       </div>
       <div className="Title-Subtitle">San Francisco's Privately Owned Public Spaces</div>
     </div>
