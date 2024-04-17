@@ -1,0 +1,19 @@
+.Newsletter-Form {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+  }
+.User-Info label {
+margin: 10px 0;
+}
+.User-Info {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 200px;
+}
+
+.User-Preferences {
+  display: flex;
+  flex-direction: column;
+  margin: 10px 10px 10px 10px;
+}

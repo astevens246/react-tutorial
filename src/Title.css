@@ -1,22 +1,32 @@
 /*  src/Title.css  */
 
 .Title {
-    box-sizing: border-box;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: baseline;
-    padding: 1em;
-    margin-bottom: 2em;
-    background-color: rgb(192, 45, 26);
-    color: #fff;
-  }
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+  background-color: rgb(192, 45, 26);
+  color: #fff;
+}
+.Title-Name {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
   .Title .nav-link,
   .Title .nav-link-active {
     color: #fff;
+    display: flex;
+    flex-direction: column;
   }
   .Title-Subtitle {
     color: rgba(255, 255, 255, 0.75);
+    font-size: 1em;
+    margin-top: .5em;
+
   }
 
   .List {
@@ -26,6 +36,12 @@
 
   .About {
     margin-top: 2em;
-    
-    
+       
   }
+
+  /* Stack the links vertically on smaller screens */
+@media screen and (max-width: 600px) {
+  .Title {
+    flex-direction: column;
+  }
+}
